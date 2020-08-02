@@ -1,0 +1,160 @@
+/* HOME */
+
+body {
+	margin: 0;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.menu li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+	background-color: #FFFFFF;
+}
+
+.menu ul li a {
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-variant:small-caps;
+	text-decoration:none;
+	height:30px;
+	width:150px;
+	display:block; 
+	color:#000;
+	border:1px solid #FFF;
+	text-shadow:1px #000;
+}
+
+.menu ul ul {
+	position:absolute;
+	visibility:hidden;
+	top:30px;
+}
+
+.menu ul li:hover ul {
+	visibility:visible;
+}
+
+.menu a:hover {
+	color:#999;
+	text-decoration:underline;
+}
+
+.menu ul li:hover ul li a:hover {
+	 color:#999; 
+	 text-decoration:none;
+}
+
+.homeSlideshow {
+	display: flex;
+	justify-content: center;
+}
+
+.mySlides {
+	width: 100%;
+  	z-index: -1;
+}
+
+.categoryText {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-variant:small-caps;
+	text-decoration:underline;
+	font-size:18px;
+	margin-top: 40px;
+}
+
+.category {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.about {
+	font-size: 15px;
+	text-align:center;
+	align-content: center;
+	justify-content: center;
+	font-variant:small-caps;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 20px;
+}
+
+.clearFloat {
+	clear:both;
+	margin:0;
+	padding:0;
+	text-align: left;
+}
+
+/* NEW IN */
+
+.slidesAndItems {
+	justify-content: center;
+	display: flex;
+}
+
+.newInSlideShow {
+	margin-top: 20px;
+	width: 372px;
+}
+
+.rowOne {
+	display: flex;
+	margin-top: 20px;
+}
+
+.rowTwo {
+	display: flex;
+}
+
+.rowThree {
+	display: flex;
+}
+
+.imgBox {
+	width: 175px;
+	height: 250px;
+	border: 1px solid #ccc;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+.imgBox:hover {
+	border: 1px solid #777;
+	border-width: 1px;
+}
+
+#description {
+	text-align: center;
+	
+}
+
+/*-----------------------------------------*/
+
+.frontCategory {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.otherItems {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
